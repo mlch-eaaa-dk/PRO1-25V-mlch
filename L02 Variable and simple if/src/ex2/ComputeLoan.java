@@ -6,7 +6,7 @@ import java.util.Scanner;
  Input loan amount, annual interest rate, and number of years,
  calculate and print monthly payment and total payment,
 
- Monthly payment = loan amount * interest rate / denominator,
+ Monthly payment = loan amount * interest rate pr month / denominator,
  where denominator = 1 - 1 / (1 + interest rate pr month) ^ number of months).
 
  Use Math.pow(a, b) to calculate a ^ b (example: 2 ^ 3 = 8).
@@ -29,16 +29,16 @@ public class ComputeLoan {
 
         System.out.print("Loan amount in $: ");
         double loanAmount = scanner.nextDouble();
+        System.out.print("Annual interest rate in %: ");
+        double annualInterestRatePct = scanner.nextDouble();
         System.out.print("Number of years: ");
         int numberOfYears = scanner.nextInt();
-        System.out.print("Yearly Interest rate in %: ");
-        double yearlyInterestRatePct = scanner.nextDouble();
         System.out.println();
 
-        double monthlyInterestRate = yearlyInterestRatePct / 100 / 12;
+        double interestRatePrMonth = annualInterestRatePct / 100 / 12;
         int numberOfMonths = numberOfYears * 12;
-        double denominator = 1 - 1 / Math.pow(1 + monthlyInterestRate, numberOfMonths);
-        double monthlyPayment = loanAmount * monthlyInterestRate / denominator;
+        double denominator = 1 - 1 / Math.pow(1 + interestRatePrMonth, numberOfMonths);
+        double monthlyPayment = loanAmount * interestRatePrMonth / denominator;
         System.out.printf("Monthly payment is %.2f\n", monthlyPayment);
         double totalPayment = monthlyPayment * numberOfYears * 12;
         System.out.printf("Total payment is %.2f\n", totalPayment);

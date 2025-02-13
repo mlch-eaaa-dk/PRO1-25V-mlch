@@ -8,7 +8,7 @@ public class Ex22 {
 
         System.out.println("The uniform triangular prism's length of sides:");
         double length = scanner.nextDouble();
-        double area = Math.sqrt(3) / 4.0 * Math.pow(length, 2.0);
+        double area = Math.sqrt(3) / 4 * Math.pow(length, 2.0);
         double volume = area * length;
         System.out.println("Area of equilateral base is " + area);
         System.out.println("Volume is " + volume);

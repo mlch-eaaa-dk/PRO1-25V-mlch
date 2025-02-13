@@ -15,11 +15,12 @@ public class SalesTax {
         // Print sales tax
 
         Scanner scanner = new Scanner(System.in);
-        int taxPct = 6;
+        final int taxPct = 6;
 
         System.out.print("Purchased amount: ");
         double amount = scanner.nextDouble();
         double tax = amount * taxPct / 100;
-        System.out.println("Sales tax is " + tax * 100 / 100.0);
+        System.out.println("Sales tax is " + tax);
+        System.out.printf("Sales tax is %.2f", tax);
     }
 }
