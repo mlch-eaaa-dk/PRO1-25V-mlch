@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/L01-Intro/L01-Intro.iml" filepath="$PROJECT_DIR$/L01-Intro/L01-Intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L02 Variable and simple if/L02 Variable and simple if.iml" filepath="$PROJECT_DIR$/L02 Variable and simple if/L02 Variable and simple if.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L03 if and if-else/L03 if and if-else.iml" filepath="$PROJECT_DIR$/L03 if and if-else/L03 if and if-else.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L04 Methods/L04 Methods.iml" filepath="$PROJECT_DIR$/L04 Methods/L04 Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L05 while/L05 while.iml" filepath="$PROJECT_DIR$/L05 while/L05 while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L06 for/L06 for.iml" filepath="$PROJECT_DIR$/L06 for/L06 for.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L07 array/L07 array.iml" filepath="$PROJECT_DIR$/L07 array/L07 array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L08 Opsamling/L08 Opsamling.iml" filepath="$PROJECT_DIR$/L08 Opsamling/L08 Opsamling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L09 Object use/L09 Object use.iml" filepath="$PROJECT_DIR$/L09 Object use/L09 Object use.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L10 Classes and Objects/L10 Classes and Objects.iml" filepath="$PROJECT_DIR$/L10 Classes and Objects/L10 Classes and Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PRO1-25V-mlch.iml" filepath="$PROJECT_DIR$/PRO1-25V-mlch.iml" />
+    </modules>
+  </component>
+</project>

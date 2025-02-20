@@ -1,6 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-.idea/
+# .idea/
+
 
 ### Mac OS ###
 .DS_Store
