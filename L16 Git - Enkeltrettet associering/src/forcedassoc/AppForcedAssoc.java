@@ -14,8 +14,8 @@ public class AppForcedAssoc {
         ib.setGroup(groupB);
         System.out.println("Ib's group: " + ib.getGroup());
 
-        // setting ib's group to null is not allowed
-        // ib.setGroup(null); // not allowed!
-        // System.out.println("Ib's group: " + ib.getGroup());
+//        // setting ib's group to null is not allowed
+//        ib.setGroup(null); // not allowed!
+//        System.out.println("Ib's group: " + ib.getGroup());
     }
 }

@@ -20,7 +20,7 @@ public class Group {
     private final ArrayList<Person> persons = new ArrayList<>();
 
     public ArrayList<Person> getPersons() {
-        return new ArrayList<>(persons);
+        return persons;
     }
 
     public void addPerson(Person person) {
